@@ -18,8 +18,6 @@
     }
   ],
   "autoload": {
-    "autoload": {
-      "psr-4": { "OP\\": "src/" }
-    }
+    "psr-4": { "OP\\": "src/" }
   }
 }
