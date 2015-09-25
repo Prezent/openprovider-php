@@ -1,0 +1,25 @@
+{
+  "name": "prezent/openprovider-php",
+  "type": "library",
+  "description": "Namespaced version of the PHP client provided by OpenProvider",
+  "homepage": "http://www.prezent.nl",
+  "require": {
+    "php": ">=5.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert-Jan Bijl",
+      "email": "robert-jan@prezent.nl"
+    },
+    {
+      "name": "Prezent Internet B.V.",
+      "email": "github@prezent.nl"
+    }
+  ],
+  "autoload": {
+    "autoload": {
+      "psr-4": { "OP\\": "src/" }
+    }
+  }
+}
